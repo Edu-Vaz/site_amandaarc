@@ -1,0 +1,14 @@
+.main-row {
+  display: flex;
+  align-items: flex-start; /* ou center */
+  gap: 40px; /* espaço entre os elementos */
+}
+#imagem-sobre-mim {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+}
+/* Exemplo: src/App.css */
+.main-content {
+  padding-top: 9rem; /* igual à altura do .topbar */
+}

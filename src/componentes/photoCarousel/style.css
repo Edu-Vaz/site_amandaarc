@@ -1,0 +1,32 @@
+.photo-carousel-container {
+  max-width: 100%;
+  margin: 40px auto;
+  max-height: 70%;
+}
+
+.swiper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.photo-carousel-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Centraliza os botões de navegação */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Centraliza a paginação abaixo do carrossel */
+.swiper-pagination {
+  bottom: 10px !important;
+  text-align: center;
+}

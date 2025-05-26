@@ -1,0 +1,73 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.contact-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 50%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.social-media  {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+/* Exemplo: src/App.css */
+.main-content,  .contact-container {
+  padding-top: 5rem; /* igual à altura do .topbar */
+}
+.icons_social-midia{
+  width: 30px;  /* Altere para o tamanho desejado */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 10px; /* Espaçamento entre os ícones */
+}
+#Texto{
+height: 40%;
+width: auto;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    height: 40rem;
+    padding: 10px 0; 
+  }
+}
