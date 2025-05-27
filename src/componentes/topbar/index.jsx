@@ -13,9 +13,11 @@ export function Topbar() {
             <li className="topbar-menu-item">
               <Link to="../">Inicio</Link>
             </li>
-            <li className="topbar-menu-item">como funciona</li>
-            <li className="topbar-menu-item">portfólio</li>
-            <li className="topbar-menu-item">depoimentos</li>
+            
+            <li className="topbar-menu-item">
+              <Link to="/portifolio">portfólio</Link>
+            </li>
+            
             <li className="topbar-menu-item">
               <Link to="/solicitar-orcamento">Solicitar orçamento</Link>            </li>
           </ul>

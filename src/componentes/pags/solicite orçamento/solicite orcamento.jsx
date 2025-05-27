@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import { Topbar } from '../../topbar/index.jsx';
+import { Rodape } from '../../rodape/rodape.jsx';
 const FormularioContato = () => {
   const [formData, setFormData] = useState({
     nome: '',
@@ -59,6 +60,7 @@ const FormularioContato = () => {
         <button type="submit">Enviar</button>
       </form>
     </div>
+    <Rodape/>
     </>
   );
 };
