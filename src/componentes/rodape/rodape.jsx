@@ -3,7 +3,7 @@ import "./rodape.css";
 export function Rodape() {
     return (
         <footer className="rodape">
-            <div className="contact-info">
+            <div className="contact-info2">
                 <h2>CONTATO</h2>
                 <p>+55 11 97176-9818</p>
                 <p>amandasantosvaz@gmail.com</p>

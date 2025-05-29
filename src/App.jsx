@@ -7,7 +7,7 @@ import Gallery from './componentes/topicos/topicos.jsx';
 import FormularioCaptacao from './componentes/pags/solicite orçamento/solicite orcamento.jsx';
 import { Routes, Route } from 'react-router-dom';
 import { Rodape } from './componentes/rodape/rodape.jsx';
-import Portifolio from './componentes/pags/portifolio/Portifolio';
+import Portifolio from './componentes/pags/portifolio/Portifolio.jsx';
 import NotFound from './componentes/pags/pagina nao encontrada/Pagina.jsx';
 
 function App() {

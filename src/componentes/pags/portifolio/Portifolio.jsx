@@ -9,7 +9,7 @@ function Portifolio() {
       <Topbar />
       <h1>galeria</h1>
       <Gallery />
-      <Rodape />
+      
     </>
   );
 }
