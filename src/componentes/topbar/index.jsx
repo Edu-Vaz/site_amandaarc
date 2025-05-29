@@ -15,7 +15,7 @@ export function Topbar() {
             </li>
             
             <li className="topbar-menu-item">
-              <Link to="/portifolio">portfólio</Link>
+              <Link to="/portifolio">Portfólio</Link>
             </li>
             
             <li className="topbar-menu-item">

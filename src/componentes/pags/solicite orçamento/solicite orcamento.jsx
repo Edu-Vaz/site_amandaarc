@@ -37,7 +37,7 @@ const handleSubmit = (e) => {
       <div className="contact-container">
         <div className="contact-info">
           <h2>CONTATO</h2>
-          <p>+55 11 97176-9818</p>
+          <p>Conte um pouco sobre você e o projeto que deseja, f</p>
           <p>amandasantosvaz@gmail.com</p>
           <div className="social-media">
             <a href="https://www.instagram.com/amanda.svazarquiteta/?igsh=bW9mN3RpdDludzh6#">
